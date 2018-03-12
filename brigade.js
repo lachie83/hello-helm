@@ -1,7 +1,7 @@
 const {events, Job} = require("brigadier")
 
-// Set to 2.8.1 b/c of ACS requirements
-const helmTag = "v2.8.1"
+// Set to 2.8.2 b/c of ACS requirements
+const helmTag = "v2.8.2"
 
 events.on("image_push", (e, p) => {
   var name = "example-hello"
